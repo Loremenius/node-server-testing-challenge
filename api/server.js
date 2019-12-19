@@ -7,6 +7,6 @@ const server = express();
 
 server.use(express.json());
 server.use(helmet());
-server.use("/api/routeOne", routeOne);
+server.use("/api/users", routeOne);
 
 module.exports = server;
